@@ -186,7 +186,7 @@ overflow-y: scroll;
   list-style: none;
   line-height: 1;
   display: block;
-
+ 
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -208,6 +208,7 @@ overflow-y: scroll;
   background: #282828;
 }
 #cssmenu > ul > li {
+    position: absolute;
   float: left;
 }
 #cssmenu.align-center > ul {
